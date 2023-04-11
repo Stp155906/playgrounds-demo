@@ -16,6 +16,7 @@ public extension Image {
         public static let avatar4 = loadImageFromBundle(name: "avatar4")
         public static let avatar5 = loadImageFromBundle(name: "avatar5")
         public static let avatar6 = loadImageFromBundle(name: "avatar6")
+        public static let searchIcon = loadImageFromBundle(name: "searchIcon")
         public static let spePlaceholder = loadImageFromBundle(name: "spePlaceholder")
     }
 }

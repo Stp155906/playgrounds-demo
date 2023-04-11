@@ -15,6 +15,14 @@ public struct Effect {
             public init() {}
         }
 
+        public struct DropShadow: ViewModifier {
+            public func body(content: Content) -> some View {
+                return content
+                    .shadow(color: Color(red:0, green: 0, blue: 0, opacity: 0.23999999463558197), radius: 24, x: 0, y:8)
+            }
+            public init() {}
+        }
+
     }
 }
 
